@@ -16,7 +16,6 @@ const Hero = () => {
                                 <a href="https://cal.com/thosyn-pax/45min" className="theme-btn differenct-color">Book a free call</a>
                             </div>
                             <div className="dot-shape"><img src="/images/shapes/shape1.png" alt="Shape" /></div>
-                            <div className="dot-shape2"><img src="/images/shapes/shape2.png" alt="Shape" /></div>
                         </SlideUp>
                     </div>
                 </div>
