@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import { menuList } from "@utils/fackData/menuList"
-import { Link } from 'react-scroll';
+// import { menuList } from "@utils/fackData/menuList"
+// import { Link } from 'react-scroll';
 
 const Header = () => {
     const [isFixed, setIsFixed] = useState(false)
