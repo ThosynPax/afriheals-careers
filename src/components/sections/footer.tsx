@@ -12,7 +12,7 @@ const Footer = () => {
                         <div className="col-lg-8">
                             <div className="footer-bottom-menu">
                                 <ul>
-                                    <li><a href="#">Courses</a></li>
+                                    <li><a href="https://selar.co/m/afrihealsC">Courses</a></li>
                                     <li><a href="#">Events</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
                                     <li><a href="#">Terms &amp; conditions</a></li>
