@@ -13,12 +13,10 @@ import Faqs from '@components/sections/faqs'
 import Booking from '@components/sections/booking'
 import Footer from '@components/sections/footer'
 import ScrollToTop from '@components/sections/scrollToTop'
-import Preloader from '@components/ui/preloader'
 
 const App = () => {
   return (
     <>
-      <Preloader />
       <Header />
       <main>
         <Hero />

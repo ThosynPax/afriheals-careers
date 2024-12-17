@@ -484,8 +484,10 @@ Version      : 1.0
     }
 
     .hero-content .dot-shape {
-        left: 60%;
+        left: 70%;
         top: 0%;
+        margin-right: 80px;
+    
     }
 
     .hero-content .dot-shape2 {
