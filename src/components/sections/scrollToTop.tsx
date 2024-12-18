@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import '../../assets/css/custom.css';
 
 const ScrollToTop = () => {
+  {/*
     const [scrollPercentage, setScrollPercentage] = useState(0);
     const [showBackToTop, setShowBackToTop] = useState(false);
 
@@ -31,8 +33,11 @@ const ScrollToTop = () => {
         }
     };
 
+    */}
+
     return (
-        <div onClick={scrollToTop} className={`${showBackToTop ? "active-progress" : ""} progress-wrap cursor-pointer`}>
+        <>
+    {/* <div onClick={scrollToTop} className={`${showBackToTop ? "active-progress" : ""} progress-wrap cursor-pointer`}>
             <i className="ri-arrow-up-s-line"></i>
             <svg
                 className="w-11 h-11"
@@ -53,8 +58,24 @@ const ScrollToTop = () => {
                     }}
                 ></path>
             </svg>
-        </div>
+            
+    </div>
+    */}
+
+    <div className="whatsapp-button">
+        <a href="https://wa.me/2347016619097" target="_blank" rel="noopener noreferrer">
+            <i
+                className="ri-whatsapp-line"
+                style={{ fontSize: '2rem', color: '#fff' }}
+            ></i>
+        </a>
+    </div>
+    </>
+        
+
+        
     );
+
 }
 
 export default ScrollToTop
