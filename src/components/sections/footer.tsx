@@ -15,7 +15,7 @@ const Footer = () => {
                             <div className="footer-bottom-menu">
                                 <ul>
                                 <li><Link to="/Courses">Courses</Link></li>
-                                <li><a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" target="_blank" rel="noopener noreferrer">External Link</a></li>
+                                <li><a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" target="_blank" rel="noopener noreferrer">Events</a></li>
                                 <li><Link to="/Privacy">Privacy Policy</Link></li>
                                 <li><Link to="/Terms">Terms &amp; conditions</Link></li>
                                                     </ul>
