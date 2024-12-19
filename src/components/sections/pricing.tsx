@@ -18,8 +18,8 @@ const Pricing = () => {
                     </div>
                     <div className="row justify-content-center">
                         {
-                            priceData.map(({ description, features, id, price, title }) =>
-                                <Card key={id} description={description} id={id} price={price} title={title} features={features} />
+                            priceData.map(({  features, id, price, title }) =>
+                                <Card key={id} id={id} price={price} title={title} features={features} />
                             )
                         }
                     </div>
@@ -34,7 +34,6 @@ export default Pricing
 
 interface PropsType {
     id: number,
-    description: string,
     price: number | string,
     title: string,
     features: {
@@ -43,14 +42,13 @@ interface PropsType {
         available: boolean
     }[]
 }
-const Card = ({ id, description, price, title, features }: PropsType) => {
+const Card = ({ id, price, title, features }: PropsType) => {
     return (
         <div className="col-lg-6 col-md-6">
             <SlideUp delay={id} className="pricing-item">
                 <div className="pricing-header">
                     <h4 className={`title ${title === "Premium" ? "color-title" : ""}`}>{title}</h4>
                     <span className="price">{price}</span>
-                    <p className="save-percent" dangerouslySetInnerHTML={{ __html: description }} />
                 </div>
                 <div className="pricing-details">
                     <ul>
