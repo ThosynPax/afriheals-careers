@@ -13,7 +13,7 @@ const Hero = () => {
                                 <br /> We offer custom classes made just for you.</p>
                             <div className="hero-btns">
                                {/*  <Link to="pricing" smooth={true}  className="theme-btn"></Link> */}
-                                <a href="https://cal.com/thosyn-pax/45min" className="theme-btn differenct-color">Book a free call</a>
+                                <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702" className="theme-btn differenct-color">Book a 30min call</a>
                             </div>
                             <div className="dot-shape"><img src="/images/shapes/shape1.png" alt="Shape" /></div>
                         </SlideUp>

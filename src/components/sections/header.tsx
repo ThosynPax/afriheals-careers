@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react"
-// import { menuList } from "@utils/fackData/menuList"
-// import { Link } from 'react-scroll';
+import { useEffect, useState } from "react";
 
 const Header = () => {
-    const [isFixed, setIsFixed] = useState(false)
+    const [isFixed, setIsFixed] = useState(false);
+
     useEffect(() => {
         const handleScroll = () => {
             const windowPos = window.scrollY;
@@ -12,14 +11,23 @@ const Header = () => {
             } else {
                 setIsFixed(false);
             }
-        }
+        };
 
-        document.addEventListener('scroll', handleScroll)
+        document.addEventListener('scroll', handleScroll);
 
-        return () => document.removeEventListener('scroll', handleScroll)
-    }, [])
+        return () => document.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
         <header className={`main-header ${isFixed ? "fixed-header" : ""}`}>
+            {/* Top Banner */}
+            <div className="top-banner">
+                <p>
+                    Booking costs <strong> ₦10,000 ($8) </strong> This fee will be deducted from your program cost upon enrollment. 
+                </p>
+            </div>
+
+            {/* Header Upper */}
             <div className="header-upper">
                 <div className="container">
                     <div className="header-inner d-flex align-items-center">
@@ -35,22 +43,20 @@ const Header = () => {
                                 <div className="navbar-header mobile-cta">
                                     <div className="mobile-logo">
                                         <a href="/">
-                                            <img src="/images/logos/logo.png" alt="Logo" title="Logo" /></a>
+                                            <img src="/images/logos/logo.png" alt="Logo" title="Logo" />
+                                        </a>
                                     </div>
-                                        <ul className="navigation clearfix onepage">
-                                            <li><a href="https://cal.com/thosyn-pax/45min">Book a call!</a></li>
-                                        </ul>
-                                    
-                                  {/*   <button type="button" className="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
-                                        <span className="icon-bar" />
-                                        <span className="icon-bar" />
-                                        <span className="icon-bar" />
-                                    </button>
-                                */}
+                                    <ul className="navigation clearfix onepage">
+                                        <li>
+                                            <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702">Book a call!</a>
+                                        </li>
+                                    </ul>
                                 </div>
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation clearfix onepage">
-                                         <li><a href="https://cal.com/thosyn-pax/45min">Book a call!</a></li>
+                                        <li>
+                                            <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702">Book a call!</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -59,8 +65,7 @@ const Header = () => {
                 </div>
             </div>
         </header>
+    );
+};
 
-    )
-}
-
-export default Header
+export default Header;

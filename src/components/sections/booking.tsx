@@ -11,7 +11,7 @@ const Booking = () => {
                             <p>Get personalized guidance to overcome challenges, build the right skills, and move closer to your dream career. Start with a call to discuss your needs, get a tailored plan, and begin your journey to success.
                             </p>
                             <div className="hero-btns">
-                                <a href="https://cal.com/thosyn-pax/45min" className="theme-btn">Book a free call</a>
+                                <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702" className="theme-btn">Book a call</a>
                             </div>
                         </SlideUp>
                     </div>

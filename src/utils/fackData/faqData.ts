@@ -34,5 +34,25 @@ export const faqData: DataType = [
         question: "Is there any support after the sessions?",
         ans: "Yes! We provide ongoing support even after your mentoring sessions. If you have questions or need further guidance, we're here to help!"
     },
+    {
+        id: "seven",
+        question: "Is there a fee to book a consultation?",
+        ans: "Yes, we charge a ₦10,000 ($8) booking fee to secure your consultation."
+    },
+    {
+        id: "eight",
+        question: "Will the booking fee be refunded if I don’t enrol?",
+        ans: " No, the booking fee is non-refundable if you choose not to enroll. This policy helps ensure that only serious inquiries are made, respecting the time and effort of our team."
+    },
+    {
+        id: "nine",
+        question: "What happens to the booking fee if I enroll in the program?",
+        ans: "If you enroll in the program, the booking fee will be fully deducted from your program cost. This way, the fee becomes part of your investment in your learning and growth."
+    },
+    {
+        id: "ten",
+        question: "Why do you charge a booking fee?",
+        ans: "The booking fee ensures commitment from participants and allows us to prepare personalized, high-quality consultations for serious clients."
+    },
 
 ]
