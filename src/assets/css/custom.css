@@ -38,3 +38,18 @@
     transform: rotate(180deg);
   }
   
+  .main-footer {
+    background-color: #000;
+  }
+
+  .footer-bottom-menu ul li a {
+    color: #fff;
+  }
+
+  .footer-bottom-menu ul li a:hover {
+    color: #FFC800;
+  }
+
+  .copyright-text p {
+    color: #fff;
+  }

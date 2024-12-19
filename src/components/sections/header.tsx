@@ -25,14 +25,14 @@ const Header = () => {
                     <div className="header-inner d-flex align-items-center">
                         <div className="logo-outer">
                             <div className="logo">
-                                <a href="#">
+                                <a href="/">
                                     <img src="/images/logos/logo.png" alt="Logo" title="Logo" />
                                 </a>
                             </div>
                         </div>
                         <div className="nav-outer clearfix">
                             <nav className="main-menu navbar-expand-lg">
-                                <div className="navbar-header">
+                                <div className="navbar-header mobile-cta">
                                     <div className="mobile-logo">
                                         <a href="/">
                                             <img src="/images/logos/logo.png" alt="Logo" title="Logo" /></a>

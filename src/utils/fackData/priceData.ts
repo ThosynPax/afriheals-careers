@@ -1,90 +1,42 @@
 type DataType = {
     id: number,
     title: string,
-    description: string,
+    img: string,
     price: number | string,
     features: {
         id: number
         feature: string,
         available: boolean
-    }[]
+    }[];
+    link: string;
 }[]
 export const priceData: DataType = [
     {
         id: 1,
-        title: "Standard",
-        description: "One request at a time. Pause or cancel anytime.",
-        price: "3,999",
-        features: [
-            {
-                id: 1,
-                feature: "One request at a time",
-                available: true
-            },
-            {
-                id: 2,
-                feature: "Unlimited brands",
-                available: true
-            },
-            {
-                id: 3,
-                feature: "1-2 day revisions",
-                available: true
-            },
-            {
-                id: 4,
-                feature: "Weekly sync calls",
-                available: true
-            },
-            {
-                id: 5,
-                feature: "Private Slack channel",
-                available: true
-            },
-            {
-                id: 6,
-                feature: "Perfect for smaller teams & startups",
-                available: true
-            },
-        ]
+        title: "Learn to use Jira Like a Pro",
+        img: "/images/courses/jira-fundamentals.png",
+        price: "10,000",
+        features: [],
+        link: "https://selar.co/Jira",
     },
+    
     {
         id: 2,
-        title: "Premium",
-        description: "Double the requests. Pause or cancel anytime.",
-        price: '5,999',
-        features: [
-            {
-                id: 1,
-                feature: "Two request at a time",
-                available: true
-            },
-            {
-                id: 2,
-                feature: "Unlimited brands",
-                available: true
-            },
-            {
-                id: 3,
-                feature: "Priority support & delivery",
-                available: true
-            },
-            {
-                id: 4,
-                feature: "Weekly sync calls",
-                available: true
-            },
-            {
-                id: 5,
-                feature: "Private Slack channel",
-                available: true
-            },
-            {
-                id: 6,
-                feature: "Perfect for smaller teams & startups",
-                available: true
-            },
-        ]
+        title: "Business Analysis Practical",
+        img: "/images/courses/business-analysis.png",
+        price: '55,000',
+        features: [],
+        link: "https://selar.co/337y75",
+
+    },
+
+    {
+        id: 3,
+        title: "Introduction to UI/UX Design",
+        img: "/images/courses/free-ui-ux.jpeg",
+        price: '55,000',
+        features: [],
+        link: "https://selar.co/4whe",
 
     },
 ]

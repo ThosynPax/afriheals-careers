@@ -1,40 +1,69 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from '@components/sections/header'
-import About from '@components/sections/about'
-import Hero from '@components/sections/hero'
-// import Partners from '@components/sections/partners'
-// import RecentProjects from '@components/sections/recentProjects'
-import WorkingProcess from '@components/sections/workingProcess'
-// import Services from '@components/sections/services'
-// import Projects from '@components/sections/projects'
-import Testimonials from '@components/sections/testimonials'
-// import Features from '@components/sections/features'
-// import Pricing from '@components/sections/pricing'
-import Faqs from '@components/sections/faqs'
-import Booking from '@components/sections/booking'
 import Footer from '@components/sections/footer'
 import ScrollToTop from '@components/sections/scrollToTop'
+import Hero from '@components/sections/hero'
+import About from '@components/sections/about'
+import WorkingProcess from '@components/sections/workingProcess'
+import Testimonials from '@components/sections/testimonials'
+import Faqs from '@components/sections/faqs'
+import Booking from '@components/sections/booking'
+import Terms from '@components/others/Terms'
+import Privacy from '@components/others/Privacy'
+import Courses from '@components/others/Courses'
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        {/*   <RecentProjects /> */}
-        {/*   <Partners /> */}
-        <About />
-        <WorkingProcess />
-        {/*   <Services /> */}
-        {/*   <Projects /> */}
-        <Testimonials />
-        {/*  <Features /> */}
-        {/*  <Pricing /> */}
-        <Faqs />
-        <Booking />
-      </main>
-      <Footer />
-      <ScrollToTop />
-    </>
+    <Router>
+      <Routes>
+        {/* Route for Terms Page */}
+        <Route path="/terms" element={
+          <>
+            <Header />
+            <Terms />
+            <Footer />
+            <ScrollToTop />
+          </>
+        } />
+
+        {/* Route for Privacy Page */}
+        <Route path="/privacy" element={
+          <>
+            <Header />
+            <Privacy />
+            <Footer />
+            <ScrollToTop />
+          </>
+        } />
+
+         {/* Route for Terms Page */}
+         <Route path="/courses" element={
+          <>
+            <Header />
+            <Courses />
+            <Footer />
+            <ScrollToTop />
+          </>
+        } />
+        
+        {/* Route for Home Page (or other pages) */}
+        <Route path="/" element={
+          <>
+            <Header />
+            <main>
+              <Hero />
+              <About />
+              <WorkingProcess />
+              <Testimonials />
+              <Faqs />
+              <Booking />
+            </main>
+            <Footer />
+            <ScrollToTop />
+          </>
+        } />
+      </Routes>
+    </Router>
   )
 }
 
