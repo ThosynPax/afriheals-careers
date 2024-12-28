@@ -17,7 +17,7 @@ const Faqs = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                         <div className="book-call-intro text-center"><img src="/images/about/founder.png" alt="founder" title="founder" />
-                            <h2>Book your free call today</h2>
+                            <h2>Book your 30mins call today</h2>
                             <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702" className="theme-btn">Schedule now<i className="ri-video-chat-line" /></a>
                             <p>Prefer to email? <a href="mailto:calls@afrihealscareers.com">calls@afrihealscareers.com</a></p>
                         </div>
