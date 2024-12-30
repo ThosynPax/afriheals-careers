@@ -24,8 +24,15 @@ const Marquee = () => {
             <span>PYTHON <span className="star-icon">★</span></span>
             <span>UI/UX DESIGN <span className="star-icon">★</span></span>
             <span>AGILE METHODOLOGY <span className="star-icon">★</span></span>
+            <span>BUSINESS ANALYSIS <span className="star-icon">★</span></span>
+            <span>DATA ANALYSIS <span className="star-icon">★</span></span>
+            <span>PRODUCT MANAGEMENT <span className="star-icon">★</span></span>
+            <span>WEB DEVELOPMENT <span className="star-icon">★</span></span>
+            <span>SOFTWARE TESTING <span className="star-icon">★</span></span>
             </div>
         </div>
+
+        
     );
 };
 
