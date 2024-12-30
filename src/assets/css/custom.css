@@ -53,3 +53,43 @@
   .copyright-text p {
     color: #fff;
   }
+
+  .marquee-container {
+    overflow: hidden; 
+    white-space: nowrap;
+    position: relative;
+    background-color: #000; 
+    padding: 10px 0;
+    margin-top: 20px;
+    display: inline-block;
+    animation: marqueeScroll 20s linear infinite; 
+}
+
+.marquee {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+    color: #fff; 
+    font-size: 1.2rem; 
+}
+
+.marquee span {
+    margin: 0 30px; 
+    font-weight: bold;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.star-icon {
+  color: #FFC800;
+  margin-left: 10px; 
+  font-size: 1.2em;
+  vertical-align: middle; 
+}
+

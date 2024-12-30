@@ -1,51 +1,32 @@
-import SectionTitle from "@components/ui/sectionTitle"
-import SlideUp from "@utils/animations/slideUp"
-import { servicesData } from "@utils/fackData/servicesData"
+import '../../assets/css/custom.css';
 
-const Services = () => {
+const Marquee = () => {
     return (
-        <section id="service" className="info-service-area">
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-12 col-lg-12">
-                        <SectionTitle>
-                            <SectionTitle.Name>Services</SectionTitle.Name>
-                            <SectionTitle.Title>Apps, websites &amp; branding</SectionTitle.Title>
-                            <SectionTitle.Description>Get expert solutions for every design need</SectionTitle.Description>
-                        </SectionTitle>
-                    </div>
-                </div>
-                <div className="row">
-                    {
-                        servicesData.map(({ description, id, img, title }) =>
-                            <Card key={id} description={description} id={id} img={img} title={title} />
-                        )
-                    }
-
-                </div>
+        <div className="marquee-container">
+            <div className="marquee">
+            <span>JIRA <span className="star-icon">★</span></span>
+            <span>FIGMA <span className="star-icon">★</span></span>
+            <span>TESTRAIL <span className="star-icon">★</span></span>
+            <span>CONFLUENCE <span className="star-icon">★</span></span>
+            <span>TRELLO <span className="star-icon">★</span></span>
+            <span>SCRUMWISE <span className="star-icon">★</span></span>
+            <span>GITHUB <span className="star-icon">★</span></span>
+            <span>PHOTOSHOP <span className="star-icon">★</span></span>
+            <span>ADOBE XD <span className="star-icon">★</span></span>
+            <span>MIRO <span className="star-icon">★</span></span>
+            <span>NOTION <span className="star-icon">★</span></span>
+            <span>SLACK <span className="star-icon">★</span></span>
+            <span>VS CODE <span className="star-icon">★</span></span>
+            <span>WEBFLOW <span className="star-icon">★</span></span>
+            <span>POSTMAN <span className="star-icon">★</span></span>
+            <span>REST API <span className="star-icon">★</span></span>
+            <span>REACT JS <span className="star-icon">★</span></span>
+            <span>PYTHON <span className="star-icon">★</span></span>
+            <span>UI/UX DESIGN <span className="star-icon">★</span></span>
+            <span>AGILE METHODOLOGY <span className="star-icon">★</span></span>
             </div>
-        </section>
-
-    )
-}
-
-export default Services
-
-interface PropsType {
-    id: number,
-    title: string,
-    description: string,
-    img: string
-}
-const Card = ({ id, title, description, img }: PropsType) => {
-    return (
-        <div className="col-lg-4 col-md-6">
-            <SlideUp delay={id} className="info-item">
-                <div className="info-content">
-                    <h4>{title}</h4>
-                    <p>{description}</p>
-                </div><img src={img} alt="img" />
-            </SlideUp>
         </div>
-    )
-}
+    );
+};
+
+export default Marquee;

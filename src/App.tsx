@@ -11,6 +11,7 @@ import Booking from '@components/sections/booking'
 import Terms from '@components/others/Terms'
 import Privacy from '@components/others/Privacy'
 import Courses from '@components/others/Courses'
+import Services from '@components/sections/services'
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
               <About />
               <WorkingProcess />
               <Testimonials />
+              <Services />
               <Faqs />
               <Booking />
             </main>
