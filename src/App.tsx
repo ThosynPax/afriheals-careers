@@ -52,6 +52,7 @@ const App = () => {
         <Route path="/Bootcamps" element={
           <>
             <Bootcamps />
+            <Footer />
             <ScrollToTop />
           </>
         } />
