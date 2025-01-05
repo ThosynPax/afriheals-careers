@@ -1,6 +1,21 @@
 import SectionTitle from "@components/ui/sectionTitle";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"; 
 
 const Bootcamps = () => {
+    // Slick slider settings
+    const sliderSettings = {
+        dots: true, 
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true, // Add next/prev arrows
+    };
+
     return (
         <section id="pricing" className="pricing-area">
             <br />
@@ -42,6 +57,9 @@ const Bootcamps = () => {
                         </div>
                     </div>
 
+                    <br />
+                    <br />
+                    <br />
                     <SectionTitle.Description>
                         <SectionTitle.Title>Choose from our top courses:</SectionTitle.Title>
                         <ul>
@@ -61,8 +79,13 @@ const Bootcamps = () => {
                         </ul>
                     </SectionTitle.Description>
 
+                    <br />
+                    <br />
+                    <br />
+
                     <SectionTitle.Description>
-                        <div className="row justify-content-center">
+                        {/* Slick Slider for Images */}
+                        <Slider {...sliderSettings}>
                             <div className="col-md-4">
                                 <img src="/images/bootcamps/1.jpeg" alt="Product Manager" style={{ width: '100%' }} />
                             </div>
@@ -72,8 +95,12 @@ const Bootcamps = () => {
                             <div className="col-md-4">
                                 <img src="/images/bootcamps/3.jpeg" alt="Web Development" style={{ width: '100%' }} />
                             </div>
-                        </div>
+                        </Slider>
                     </SectionTitle.Description>
+
+                    <br />
+                    <br />
+                    <br />
 
                     {/* Price Section with Early Bird Pricing and Deadlines */}
                     <SectionTitle.Description>
@@ -91,13 +118,14 @@ const Bootcamps = () => {
                             </div>
                             <div className="pricing-card">
                                 <h4>📈 Product Management</h4>
-                                <p><strong>Regular Price:</strong> ₦220,000                                </p>
+                                <p><strong>Regular Price:</strong> ₦220,000</p>
                                 <p><strong>Early Bird Price:</strong> ₦170,000 (Deadline: Jan 24, 2025)</p>
                             </div>
                         </div>
                     </SectionTitle.Description>
-
-                    <SectionTitle> Class Starts: March 7th, 2025</SectionTitle>
+                    <br />
+                    <SectionTitle.Title>Class Starts: March 7th, 2025</SectionTitle.Title>
+                    <br />
 
                     <SectionTitle.Description>
                         <SectionTitle.Title>Frequently Asked Questions (FAQ):</SectionTitle.Title>
@@ -108,6 +136,9 @@ const Bootcamps = () => {
                         </ul>
                     </SectionTitle.Description>
 
+                    <br />
+                    <br />
+                    <br />
                     <SectionTitle.Description>
                         <SectionTitle.Title>Register Now &amp; Secure Your Spot</SectionTitle.Title>
                         <p>Ready to take the next step? Pay to the account details provided, and click I have paid button to share your proof of payment with us.</p>
@@ -131,8 +162,7 @@ const Bootcamps = () => {
 
                     </SectionTitle.Description>
 
-
-                    <SectionTitle> Class Starts: March 7th, 2025</SectionTitle>
+                    <SectionTitle.Title> Class Starts: March 7th, 2025</SectionTitle.Title>
                 </div>
             </div>
         </section>
