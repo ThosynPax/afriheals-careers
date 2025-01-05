@@ -12,6 +12,7 @@ import Terms from '@components/others/Terms'
 import Privacy from '@components/others/Privacy'
 import Courses from '@components/others/Courses'
 import Services from '@components/sections/services'
+import Bootcamps from '@components/others/Bootcamps'
 
 const App = () => {
   return (
@@ -37,12 +38,20 @@ const App = () => {
           </>
         } />
 
-         {/* Route for Terms Page */}
+         {/* Route for Courses Page */}
          <Route path="/courses" element={
           <>
             <Header />
             <Courses />
             <Footer />
+            <ScrollToTop />
+          </>
+        } />
+
+        {/* Route for Bootcamps Page */}
+        <Route path="/Bootcamps" element={
+          <>
+            <Bootcamps />
             <ScrollToTop />
           </>
         } />
