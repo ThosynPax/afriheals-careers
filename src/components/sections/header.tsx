@@ -23,7 +23,7 @@ const Header = () => {
             {/* Top Banner */}
             <div className="top-banner">
                 <p>
-                    Booking costs <strong> ₦10,000 ($8) </strong> This fee will be deducted from your program cost upon enrollment. 
+                    The booking fee is <strong>₦10,000 ($8) </strong> and will be applied as a deduction from your program cost upon enrollment.
                 </p>
             </div>
 
