@@ -2143,8 +2143,6 @@ ul.extra-skills li i {
 * 11.PRICING CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.pricing-area {}
-
 .container-inner {
     width: 75%;
     margin: 0 auto;
@@ -3429,3 +3427,4 @@ ul.blog_pagination li a:hover {
     padding-top: 10px;
     padding-bottom:  3px;
 }
+
