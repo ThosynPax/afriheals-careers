@@ -40,7 +40,7 @@ const Bootcamps = () => {
                             </SectionTitle>
                         </div>
                     </div>
-
+                {/* 
                     <div className="row justify-content-center">
                         <div className="col-md-4">
                             <div className="video-container">
@@ -56,6 +56,7 @@ const Bootcamps = () => {
                             </div>
                         </div>
                     </div>
+                */}
 
                     <br />
                     <br />
