@@ -14,11 +14,12 @@ const Footer = () => {
                         <div className="col-lg-8">
                             <div className="footer-bottom-menu">
                                 <ul>
-                                <li><Link to="/Courses">Courses</Link></li>
-                                <li><a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" target="_blank" rel="noopener noreferrer">Events</a></li>
-                                <li><Link to="/Privacy">Privacy Policy</Link></li>
-                                <li><Link to="/Terms">Terms &amp; conditions</Link></li>
-                                                    </ul>
+                                    <li><Link to="/Courses">Courses</Link></li>
+                                    <li><Link to="/Bootcamps">Bootcamps</Link></li>
+                                    <li><a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" target="_blank" rel="noopener noreferrer">Events</a></li>
+                                    <li><Link to="/Privacy">Privacy Policy</Link></li>
+                                    <li><Link to="/Terms">Terms &amp; conditions</Link></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
