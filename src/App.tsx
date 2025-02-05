@@ -13,6 +13,8 @@ import Privacy from '@components/others/Privacy'
 import Courses from '@components/others/Courses'
 import Services from '@components/sections/services'
 import Bootcamps from '@components/others/Bootcamps'
+import Projects from '@components/sections/projects'
+import Features from '@components/sections/features'
 
 const App = () => {
   return (
@@ -68,6 +70,7 @@ const App = () => {
               <Testimonials />
               <Services />
               <Faqs />
+              <Features />
               <Booking />
             </main>
             <Footer />

@@ -9,9 +9,9 @@ const Features = () => {
                 <div className="row">
                     <div className="col-xl-12 col-lg-12">
                         <SectionTitle>
-                            <SectionTitle.Name>Features</SectionTitle.Name>
-                            <SectionTitle.Title>Membership benefits</SectionTitle.Title>
-                            <SectionTitle.Description>Perks so good you'll never need to go anywhere else for your design. Seriously.</SectionTitle.Description>
+                            <SectionTitle.Name>Other Services</SectionTitle.Name>
+                            <SectionTitle.Title>Additional Services to Boost Your Tech Career & Skills</SectionTitle.Title>
+                            <SectionTitle.Description>Enhancing skills, boosting tech careers, and unlocking new opportunities.</SectionTitle.Description>
                         </SectionTitle>
                     </div>
                 </div>
@@ -20,6 +20,10 @@ const Features = () => {
                         <Card key={id} description={description} icon={icon} id={id} title={title} />
                     )}
                 </div>
+                <SectionTitle>
+                     <SectionTitle.Name><a href="https://wa.link/3fphdr"> Interested in any of the above services? Click to Send us a DM ASAP</a> </SectionTitle.Name>
+                </SectionTitle>
+               
             </div>
         </section>
 

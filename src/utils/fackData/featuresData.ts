@@ -4,42 +4,41 @@ type DataType = {
     icon: string,
     description: string
 }[]
-
 export const featuresData: DataType = [
     {
         id: 1,
-        title: "Unlimited requests",
-        icon: "ri-global-fill",
-        description: "Unlimited desgin requests, prioritized by your needs"
+        title: "Corporate Training",
+        icon: "ri-code-fill",
+        description: "Comprehensive training on software tools, coding languages, and tech skills."
     },
     {
         id: 2,
-        title: "Lightning fast",
-        icon: "ri-quill-pen-line",
-        description: "Tasks delivered in just 1-2 working business days."
+        title: "LinkedIn Optimization",
+        icon: "ri-linkedin-box-fill",
+        description: "Enhance your LinkedIn profile to attract recruiters in the tech industry."
     },
     {
         id: 3,
-        title: "No contracts",
-        icon: "ri-pantone-fill",
-        description: "No contracts. Cancel your subscription at any time."
+        title: "School Project & Research Writing",
+        icon: "ri-book-2-fill",
+        description: "Tech-focused support for academic projects, research papers, and reports."
     },
     {
         id: 4,
-        title: "No extra Charges",
-        icon: "ri-global-fill",
-        description: "Just fixed monthly subscription; No extra charges or fees."
+        title: "Thesis & Dissertation Editing",
+        icon: "ri-file-edit-fill",
+        description: "Professional editing and formatting for tech-related theses and dissertations."
     },
     {
         id: 5,
-        title: "Top-notch quality",
-        icon: "ri-pantone-fill",
-        description: "Access incredible design quality whenever you need it."
+        title: "Internship Prep Programs",
+        icon: "ri-graduation-cap-fill",
+        description: "Prepare for tech careers with resume reviews, and job search strategies."
     },
     {
         id: 6,
-        title: "Risk-free Revisions",
-        icon: "ri-pantone-fill",
-        description: "Revise until 100% satisfied without any extra cost."
-    }
-]
+        title: "Freelancing & Remote Work Workshops",
+        icon: "ri-remote-control-fill",
+        description: "Learn how to start a successful freelance tech career and work remotely."
+    },
+];
