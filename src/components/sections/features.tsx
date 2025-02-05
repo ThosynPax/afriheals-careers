@@ -11,7 +11,7 @@ const Features = () => {
                         <SectionTitle>
                             <SectionTitle.Name>Other Services</SectionTitle.Name>
                             <SectionTitle.Title>Additional Services to Boost Your Tech Career & Skills</SectionTitle.Title>
-                            <SectionTitle.Description>Enhancing skills, boosting tech careers, and unlocking new opportunities.</SectionTitle.Description>
+                            <SectionTitle.Description>Enhancing skills, boosting tech careers, and unlocking new tech opportunities.</SectionTitle.Description>
                         </SectionTitle>
                     </div>
                 </div>
