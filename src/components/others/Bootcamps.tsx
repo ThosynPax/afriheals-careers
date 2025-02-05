@@ -124,17 +124,17 @@ const Bootcamps = () => {
                             <div className="pricing-card">
                                 <h4>💻 Web Development</h4>
                                 <p><strong>Regular Price:</strong> ₦250,000</p>
-                                <p><strong>Early Bird Price:</strong> ₦200,000 (Deadline: Jan 24, 2025)</p>
+                                <p><strong>Early Bird Price:</strong> ₦200,000 (Deadline: February 24, 2025)</p>
                             </div>
                             <div className="pricing-card">
                                 <h4>📊 Data Analytics</h4>
                                 <p><strong>Regular Price:</strong> ₦150,000</p>
-                                <p><strong>Early Bird Price:</strong> ₦100,000 (Deadline: Jan 24, 2025)</p>
+                                <p><strong>Early Bird Price:</strong> ₦100,000 (Deadline: February 24, 2025)</p>
                             </div>
                             <div className="pricing-card">
                                 <h4>📈 Product Management</h4>
                                 <p><strong>Regular Price:</strong> ₦220,000</p>
-                                <p><strong>Early Bird Price:</strong> ₦170,000 (Deadline: Jan 24, 2025)</p>
+                                <p><strong>Early Bird Price:</strong> ₦170,000 (Deadline: February 24, 2025)</p>
                             </div>
                         </div>
                     </SectionTitle.Description>
