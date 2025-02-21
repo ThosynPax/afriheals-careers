@@ -14,6 +14,7 @@ import Courses from '@components/others/Courses'
 import Services from '@components/sections/services'
 import Bootcamps from '@components/others/Bootcamps'
 import Features from '@components/sections/features'
+import Schools from '@components/others/schools'
 
 const App = () => {
   return (
@@ -44,6 +45,16 @@ const App = () => {
           <>
             <Header />
             <Courses />
+            <Footer />
+            <ScrollToTop />
+          </>
+        } />
+
+        {/* Route for Courses Page */}
+        <Route path="/schools" element={
+          <>
+            <Header />
+            <Schools />
             <Footer />
             <ScrollToTop />
           </>

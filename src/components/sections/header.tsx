@@ -48,14 +48,14 @@ const Header = () => {
                                     </div>
                                     <ul className="navigation clearfix onepage">
                                         <li>
-                                            <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702">Book a call!</a>
+                                            <a href="/schools">Join a class</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation clearfix onepage">
                                         <li>
-                                            <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702">Book a call!</a>
+                                            <a href="/schools">Join a class</a>
                                         </li>
                                     </ul>
                                 </div>
