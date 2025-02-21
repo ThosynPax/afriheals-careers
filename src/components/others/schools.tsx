@@ -22,11 +22,12 @@ const Schools = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        {schoolData.map(({ id, img, features, title, link }) => (
+                        {schoolData.map(({ id, img, description, features, title, link }) => (
                             <Card
                                 key={id}
                                 id={id}
                                 img={img}
+                                description={description}
                                 title={title}
                                 link={link}
                                 features={features}
@@ -44,6 +45,7 @@ export default Schools;
 interface PropsType {
     id: number;
     img: string;
+    description: string;
     title: string;
     features: {
         id: number;
@@ -52,13 +54,14 @@ interface PropsType {
     }[];
     link: string;
 }
-const Card = ({ id, img, link, title }: PropsType) => {
+const Card = ({ id, img, description, link, title }: PropsType) => {
     return (
-        <div className="col-lg-3 col-md-6 col-sm-12 mb-4"> {/* 4 per row on large screens */}
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4"> {/* 4 per row on large screens */}
             <SlideUp delay={id} className="pricing-item">
                 <div className="pricing-header">
                     <img src={img} alt="img" data-rjs={2} />
                     <h1 className={`title ${title === "Premium" ? "color-title" : ""}`}>{title}</h1>
+                    <p>{description}</p>
                 </div>
                 <div className="pricing-details">
                     <a href={link} className="theme-btn">
