@@ -24,7 +24,7 @@ export const priceData: DataType = [
         id: 2,
         title: "Business Analysis Practical",
         img: "/images/courses/business-analysis.png",
-        price: '55,000',
+        price: '10,000',
         features: [],
         link: "https://selar.co/337y75",
 
