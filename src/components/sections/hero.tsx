@@ -7,13 +7,12 @@ const Hero = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <SlideUp className="hero-content position-relative">
-                            <h3>One-on-One Mentoring</h3>
-                            <h2>Learn What You Want, When You Want It!</h2>
-                            <p>Do you want one-on-one practical classes that fit your goals and schedule? 
-                                <br /> We offer custom classes made just for you.</p>
+                            <h3>Trusted by 5,000+ African tech professionals</h3>
+                            <h2>Stuck in your tech career? Our community opens doors</h2>
+                            <p>Grow with a community of top tech talent. Access hidden job opportunities, <br /> expert insights, and career-changing connections.</p>
                             <div className="hero-btns">
                                {/*  <Link to="pricing" smooth={true}  className="theme-btn"></Link> */}
-                                <a href="https://coachli.co/afriheals/session/1-on-1-mentoring?id=702" className="theme-btn differenct-color">Book a 30min call</a>
+                                <a href="https://forms.gle/dHjj1o8JNVKj9N3B9" className="theme-btn differenct-color">Join Our Community</a>
                             </div>
                             <div className="dot-shape"><img src="/images/shapes/shape1.png" alt="Shape" /></div>
                         </SlideUp>

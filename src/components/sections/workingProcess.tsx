@@ -9,10 +9,11 @@ const WorkingProcess = () => {
                 <div className="row">
                     <div className="col-xl-12 col-lg-12">
                         <SectionTitle>
-                            <SectionTitle.Name>How It Works</SectionTitle.Name>
-                            <SectionTitle.Title>Start Your Mentoring Journey Today</SectionTitle.Title>
-                            <SectionTitle.Description>Personalized one-on-one mentoring to help you achieve your career goals.
+                            <SectionTitle.Name>What We Offer</SectionTitle.Name>
+                            <SectionTitle.Title>Your Tech Career Toolkit</SectionTitle.Title>
+                          {/**  <SectionTitle.Description>Personalized one-on-one mentoring to help you achieve your career goals.
                                 <br /> It’s simple and tailored just for you!.</SectionTitle.Description>
+                         */}
                         </SectionTitle>
                     </div>
                 </div>

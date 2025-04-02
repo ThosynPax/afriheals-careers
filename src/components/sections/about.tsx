@@ -7,10 +7,9 @@ const About = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SlideUp className="founder-say-part text-center">
-                            <h3>At AfriHeals Careers, we are dedicated to empowering individuals through personalized one-on-one mentoring.
-                                <span> Our goal is to equip you with essential tech skills to excel in today’s fast-paced world. </span>
-                                 Together, we’ll unlock your
-                                  full potential and help you achieve your career goals. Let’s get started!</h3>
+                            <h3>At AfriHeals Careers, we bridge the gap between tech talent and opportunity.
+                                <span> We curate Africa's most valuable career resources, from exclusive job openings to insider industry knowledge, </span>
+                                    giving you the unfair advantage in today's competitive tech market</h3>
                             <div className="founder-name-part">
                                 <img src="/images/about/founder.png" alt="founder" title="founder" />
                                 <h2>Thosyn Pax</h2>

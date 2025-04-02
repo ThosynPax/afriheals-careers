@@ -9,7 +9,7 @@ const Faqs = () => {
                     <div className="col-xl-12 col-lg-12">
                         <SectionTitle>
                             <SectionTitle.Name>FAQs</SectionTitle.Name>
-                            <SectionTitle.Title>Got questions?</SectionTitle.Title>
+                            <SectionTitle.Title>How We Help</SectionTitle.Title>
                             <SectionTitle.Description> We’ve got answers! Here you’ll find common queries about our one-on-one mentoring. If you don’t see your question, feel free to reach out to us directly.</SectionTitle.Description>
                         </SectionTitle>
                     </div>

@@ -20,12 +20,13 @@ const Header = () => {
 
     return (
         <header className={`main-header ${isFixed ? "fixed-header" : ""}`}>
-            {/* Top Banner */}
+            {/* Top Banner
             <div className="top-banner">
                 <p>
                     The booking fee is <strong>₦10,000 ($8) </strong> and will be applied as a deduction from your program cost upon enrollment.
                 </p>
             </div>
+             */}
 
             {/* Header Upper */}
             <div className="header-upper">
@@ -48,14 +49,14 @@ const Header = () => {
                                     </div>
                                     <ul className="navigation clearfix onepage">
                                         <li>
-                                            <a href="/schools">Join a class</a>
+                                            <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation clearfix onepage">
                                         <li>
-                                            <a href="/schools">Join a class</a>
+                                            <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a>
                                         </li>
                                     </ul>
                                 </div>

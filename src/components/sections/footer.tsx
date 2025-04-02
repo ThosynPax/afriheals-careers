@@ -11,6 +11,7 @@ const Footer = () => {
                                 <p>Copyright <a href="https://www.afrihealscareers.com/">©Afriheals Careers</a>  by Afribreath Ltd. All Rights Reserved.</p>
                             </div>
                         </div>
+                    {/**
                         <div className="col-lg-8">
                             <div className="footer-bottom-menu">
                                 <ul>
@@ -22,6 +23,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
+                     */}
                     </div>
                 </div>
             </div>

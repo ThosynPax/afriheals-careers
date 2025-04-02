@@ -79,8 +79,6 @@ const App = () => {
               <WorkingProcess />
               <Testimonials />
               <Services />
-              <Faqs />
-              <Features />
               <Booking />
             </main>
             <Footer />
