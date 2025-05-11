@@ -4,10 +4,7 @@ import { priceData } from "@utils/fackData/priceData";
 
 const Courses = () => {
     return (
-        <section id="pricing" className="pricing-area">
-            <br />
-            <br />
-            <br />
+        <section id="pricing" className="pricing-area"><br /><br /><br /><br /><br /><br />
             <div className="container">
                 <div className="container-inner">
                     <div className="row">

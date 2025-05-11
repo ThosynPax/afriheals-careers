@@ -1,7 +1,6 @@
 type DataType = {
     id: number
     title: string,
-    img: string,
     description: string,
     icon: string
 }[]
@@ -9,23 +8,20 @@ type DataType = {
 export const workProcessData: DataType = [
     {
         id: 1,
-        title: "Premium Job Board",
-        img: "/images/shapes/workprocess-shape1.png",
+        title: "Become a Member",
         icon: "ri-shake-hands-line",
-        description: "Exclusive high-paying tech roles (curated for you).",
+        description: "Join African tech professionals gaining access to exclusive job alerts, hands-on sessions, and a powerful network. As a member, you’ll never walk your career path alone.",
     },
     {
         id: 2,
-        title: "Expert Webinars ",
-        img: "/images/shapes/workprocess-shape2.png",
+        title: "Learn & Upskill",
         icon: "ri-global-fill",
-        description: "Free & paid sessions on resumes, interviews, trends, and lots more.",
+        description: "From short courses to in-depth workshops, we help you build real-world skills that matter, guided by industry experts who understand what employers are looking for.",
     },
     {
         id: 3,
-        title: "Tech Networking Events",
-        img: "/images/shapes/workprocess-shape1.png",
+        title: "Webinars & Classes",
         icon: "ri-stack-line",
-        description: "Virtual/in-person meetups with industry leaders.",
+        description: "Attend live, practical sessions on everything from CV revamps to interview prep, and more. Ask questions, get feedback, and grow in real time.",
     },
 ]

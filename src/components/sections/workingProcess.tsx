@@ -10,17 +10,17 @@ const WorkingProcess = () => {
                     <div className="col-xl-12 col-lg-12">
                         <SectionTitle>
                             <SectionTitle.Name>What We Offer</SectionTitle.Name>
-                            <SectionTitle.Title>Your Tech Career Toolkit</SectionTitle.Title>
-                          {/**  <SectionTitle.Description>Personalized one-on-one mentoring to help you achieve your career goals.
-                                <br /> It’s simple and tailored just for you!.</SectionTitle.Description>
-                         */}
+                            <SectionTitle.Title>Unlock Your Tech Career Journey</SectionTitle.Title>
+                            <SectionTitle.Description>We are your partner for long-term career growth. Whether you're just starting out or looking to level up,
+                                <br /> we’ve built tools and programs to support every step of your tech journey.</SectionTitle.Description>
+                         
                         </SectionTitle>
                     </div>
                 </div>
                 <div className="row work-process-list">
                     {
-                        workProcessData.map(({ description, id, img, title, icon }, index) =>
-                            <Card key={id} description={description} id={id} img={img} title={title} icon={icon} index={index} />
+                        workProcessData.map(({ description, id, title, icon }, index) =>
+                            <Card key={id} description={description} id={id} title={title} icon={icon} index={index} />
                         )
                     }
                 </div>
@@ -33,21 +33,20 @@ const WorkingProcess = () => {
 export default WorkingProcess
 
 type PropsType = {
-    img: string,
     id: number,
     title: string,
     description: string,
     index: number,
     icon: string
 }
-const Card = ({ img, id, title, description, index, icon }: PropsType) => {
+const Card = ({ id, title, description, index, icon }: PropsType) => {
     return (
         <SlideUp delay={id} className="col-xl-4 col-lg-4">
             <div className="working-process-one__single text-center">
                 {
                     index !== 0 &&
                     <div className="working-process-one__shape4">
-                        <img src={img} alt="shapes" />
+                       
                     </div>
                 }
 

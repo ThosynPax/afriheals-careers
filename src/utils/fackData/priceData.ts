@@ -34,7 +34,7 @@ export const priceData: DataType = [
         id: 3,
         title: "Introduction to UI/UX Design",
         img: "/images/courses/free-ui-ux.jpeg",
-        price: '0.00',
+        price: '7500.00',
         features: [],
         link: "https://selar.co/4whe",
 

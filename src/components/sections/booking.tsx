@@ -7,9 +7,7 @@ const Booking = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SlideUp className="call-to-action-part text-center">
-                            <h2>500+ tech professionals attended our last event - don't miss out!</h2>
-                            <p>Network with employers and unlock hidden job opportunities.
-                            </p>
+                            <h2>Don't miss out on our upcoming events!</h2>
                             <div className="hero-btns">
                                 <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" className="theme-btn">Available Events</a>
                             </div>

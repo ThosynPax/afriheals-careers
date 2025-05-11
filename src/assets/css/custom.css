@@ -237,3 +237,17 @@
         align-items: center;
     }
 } 
+
+.our-story {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.section-title h2 {
+  font-size: 40px !important; 
+}
+
+
+.hero-content p {
+      padding: 0px 6px !important;
+}
