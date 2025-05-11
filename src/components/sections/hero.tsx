@@ -11,8 +11,8 @@ const Hero = () => {
                             <h2>Stuck in your tech career? Our community opens doors</h2>
                             <p>Grow with a community of top tech talent. Access hidden job opportunities, <br /> expert insights, and career-changing connections.</p>
                             <div className="hero-btns">
-                               {/*  <Link to="pricing" smooth={true}  className="theme-btn"></Link> */}
-                                <a href="https://forms.gle/dHjj1o8JNVKj9N3B9" className="theme-btn differenct-color">Join Our Community</a>
+                                <a href="#"  className="theme-btn">Become a Member </a>
+                                <a href="#" className="theme-btn differenct-color">Start Learning</a>
                             </div>
                             <div className="dot-shape"><img src="/images/shapes/shape1.png" alt="Shape" /></div>
                         </SlideUp>

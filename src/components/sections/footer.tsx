@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="copyright-text">
-                                <p>Copyright <a href="https://www.afrihealscareers.com/">©Afriheals Careers</a>  by Afribreath Ltd. All Rights Reserved.</p>
+                                <p>2025 © Afriheals Careers  by Afribreath Ltd. All Rights Reserved.</p>
                             </div>
                         </div>
                     

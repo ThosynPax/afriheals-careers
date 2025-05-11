@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 const Header = () => {
     const [isFixed, setIsFixed] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -18,17 +19,12 @@ const Header = () => {
         return () => document.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <header className={`main-header ${isFixed ? "fixed-header" : ""}`}>
-            {/* Top Banner
-            <div className="top-banner">
-                <p>
-                    The booking fee is <strong>₦10,000 ($8) </strong> and will be applied as a deduction from your program cost upon enrollment.
-                </p>
-            </div>
-             */}
-
-            {/* Header Upper */}
             <div className="header-upper">
                 <div className="container">
                     <div className="header-inner d-flex align-items-center">
@@ -39,25 +35,55 @@ const Header = () => {
                                 </a>
                             </div>
                         </div>
+
+                        {/* Mobile menu button (hamburger) */}
+                        <button 
+                            className="mobile-menu-toggler" 
+                            onClick={toggleMobileMenu}
+                            aria-label="Toggle mobile menu"
+                        >
+                            <span className={`hamburger-line ${isMobileMenuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${isMobileMenuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${isMobileMenuOpen ? 'open' : ''}`}></span>
+                        </button>
+
                         <div className="nav-outer clearfix">
                             <nav className="main-menu navbar-expand-lg">
-                                <div className="navbar-header mobile-cta">
+                                <div className="navbar-header">
                                     <div className="mobile-logo">
                                         <a href="/">
                                             <img src="/images/logos/logo.png" alt="Logo" title="Logo" />
                                         </a>
                                     </div>
+                                </div>
+
+                                {/* Mobile Menu */}
+                                <div className={`mobile-menu-container ${isMobileMenuOpen ? 'open' : ''}`}>
                                     <ul className="navigation clearfix onepage">
                                         <li>
+                                            <a href="#">Story</a>
+                                            <a href="#">Jobs</a>
+                                            <a href="">Join our Community</a>
+                                            <a href="#">Membership</a>
+                                            <a href="#">Corporate Training</a>
                                             <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a>
                                         </li>
+                                        {/* Add more menu items as needed */}
                                     </ul>
                                 </div>
+
+                                {/* Desktop Menu */}
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation clearfix onepage">
                                         <li>
+                                            <a href="#">Story</a>
+                                            <a href="#">Jobs</a>
+                                            <a href="">Join our Community</a>
+                                            <a href="#">Membership</a>
+                                            <a href="#">Corporate Training</a>
                                             <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a>
                                         </li>
+                                        {/* Add more menu items as needed */}
                                     </ul>
                                 </div>
                             </nav>
