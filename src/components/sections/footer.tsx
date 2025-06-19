@@ -8,16 +8,15 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="copyright-text">
-                                <p>2025 © Afriheals Careers  by Afribreath Ltd. All Rights Reserved.</p>
+                                <p>2025 © the Pax Company. All Rights Reserved.</p>
                             </div>
                         </div>
                     
                         <div className="col-lg-8">
                             <div className="footer-bottom-menu">
                                 <ul>
-                                    <li><a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" target="_blank" rel="noopener noreferrer">Events</a></li>
-                                    <li><Link to="/Privacy">Privacy Policy</Link></li>
-                                    <li><Link to="/Terms">Terms &amp; conditions</Link></li>
+                                    <li><Link to="/"></Link></li>
+                                    <li><Link to="/"></Link></li>
                                 </ul>
                             </div>
                         </div>

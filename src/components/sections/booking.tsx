@@ -7,9 +7,10 @@ const Booking = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <SlideUp className="call-to-action-part text-center">
-                            <h2>Don't miss out on our upcoming events!</h2>
+                            <h2>Need something custom?</h2>
+                            <p>If you only need part of a plan, want something more tailored, or you're not sure where to start, we’re happy to build a custom solution that fits your goals, budget, and timeline.</p>
                             <div className="hero-btns">
-                                <a href="https://lu.ma/user/usr-42H4h2IZIzSI5xb" className="theme-btn">Available Events</a>
+                                <a href="https://cal.com/thosyn-pax-eh9hc6/45min" className="theme-btn">Book a call</a>
                             </div>
                         </SlideUp>
                     </div>

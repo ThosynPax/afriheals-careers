@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from '@components/sections/header'
 import Footer from '@components/sections/footer'
 import ScrollToTop from '@components/sections/scrollToTop'
+import RecentProjects from '@components/sections/recentProjects'
 import Hero from '@components/sections/hero'
 import About from '@components/sections/about'
-import WorkingProcess from '@components/sections/workingProcess'
 import Testimonials from '@components/sections/testimonials'
 import Booking from '@components/sections/booking'
 import Terms from '@components/others/Terms'
@@ -13,6 +13,8 @@ import Courses from '@components/others/Courses'
 import Services from '@components/sections/services'
 import Bootcamps from '@components/others/Bootcamps'
 import Story from '@components/sections/Story'
+import Projects from '@components/sections/projects'
+import Pricing from '@components/sections/pricing'
 
 const App = () => {
   return (
@@ -73,10 +75,12 @@ const App = () => {
             <Header />
             <main>
               <Hero />
+              <RecentProjects />
               <About />
-              <WorkingProcess />
+              <Projects />
               <Testimonials />
               <Services />
+              <Pricing />
               <Booking />
             </main>
             <Footer />

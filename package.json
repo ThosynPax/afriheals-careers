@@ -1,7 +1,7 @@
 {
-  "name": "thosynpax",
+  "name": "the_pax_company",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -61,14 +61,6 @@ const ScrollToTop = () => {
     </div>
     */}
 
-    <div className="whatsapp-button">
-        <a href="https://wa.me/2347016619097" target="_blank" rel="noopener noreferrer">
-            <i
-                className="ri-whatsapp-line"
-                style={{ fontSize: '2rem', color: '#fff' }}
-            ></i>
-        </a>
-    </div>
     </>
         
 

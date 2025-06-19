@@ -52,7 +52,7 @@ const Header = () => {
                                 <div className="navbar-header">
                                     <div className="mobile-logo">
                                         <a href="/">
-                                            <img src="/images/logos/logo.png" alt="Logo" title="Logo" />
+                                            <img src="/images/logos/logo.png" width="350px" alt="Logo" title="Logo" />
                                         </a>
                                     </div>
                                 </div>
@@ -60,12 +60,9 @@ const Header = () => {
                                 {/* Mobile Menu */}
                                 <div className={`mobile-menu-container ${isMobileMenuOpen ? 'open' : ''}`}>
                                     <ul className="navigation clearfix onepage">
-                                        <li><a href="/story">Story</a></li>
-                                        <li><a href="/courses">Courses</a></li>
-                                        <li><a target="_blank" href="https://www.circle.afrihealscareers.com/jobs">Jobs</a></li>
-                                        <li><a target="_blank" href="https://forms.gle/qLkYMCtJXSVbGsMGA">Join our Community</a></li>
-                                        <li><a target="_blank" href="https://www.circle.afrihealscareers.com/">Membership</a></li>
-                                        <li><a target="_blank" href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/story">Our Story</a></li>
+                                         <li><a href="/portfolio">Portfolio</a></li>
                                         {/* Add more menu items as needed */}
                                     </ul>
                                 </div>
@@ -73,12 +70,9 @@ const Header = () => {
                                 {/* Desktop Menu */}
                                 <div className="navbar-collapse collapse">
                                     <ul className="navigation clearfix onepage">
-                                        <li><a href="/story">Story</a></li>
-                                        <li><a href="/courses">Courses</a></li>
-                                        <li><a target="_blank" href="https://www.circle.afrihealscareers.com/jobs">Jobs</a></li>
-                                        <li><a target="_blank" href="https://forms.gle/qLkYMCtJXSVbGsMGA">Join our Community</a></li>
-                                        <li><a target="_blank" href="https://www.circle.afrihealscareers.com/">Membership</a></li>
-                                        <li><a target="_blank" href="https://lu.ma/user/usr-42H4h2IZIzSI5xb">Events</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/story">Our Story</a></li>
+                                         <li><a href="/portfolio">Portfolio</a></li>
                                         {/* Add more menu items as needed */}
                                     </ul>
                                 </div>
